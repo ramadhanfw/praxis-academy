@@ -1,0 +1,64 @@
+1. cd
+ramadhan@ramadhan-X456URK:~$ cd praxis
+ramadhan@ramadhan-X456URK:~/praxis$ cd kemampuan-dasar-1
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1$
+
+2. ls
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1$ ls
+latihan
+
+3. ls -R
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1$ la -R
+.:
+latihan
+
+./latihan:
+cmdline.txt grub.txt kernel-linux.txt shellscripts
+./latihan/shelscripts:
+
+4. ls -a
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1$ ls -a
+. .. latihan
+
+5. cat > contoh
+Latihan Contohramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1$ ls
+cmdline.txt contoh grub.txt kernel-linux.txt shellscripts
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ cat contoh
+latihan contohramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$
+
+6. mkdir contoh2
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ mkdir contoh2
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ ls
+cmdline.txt contoh contoh2 grub.txt kernel-linux.txt shellscripts
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$
+
+7. rm contoh
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ ls
+cmdline.txt contoh grub.txt kernel-linux.txt shellscript
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ rm contoh
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ ls
+cmdline.txt grub.txt kernel-linux.txt shellscript
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$
+
+8. rmdir contoh
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ ls
+cmdline.txt contoh grub.txt kernel-linux.txt shellscript
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ rmdir contoh
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ ls
+cmdline.txt grub.txt kernel-linux.txt shellscript
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$
+
+9. mv contoh contoh 2
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ ls
+cmdline.txt contoh grub.txt kernel-linux.txt shellscript
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ mv contoh contoh2
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ ls
+cmdline.txt contoh2 grub.txt kernel-linux.txt shellscript
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$
+
+10. man man 
+
+11. clear
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ ls
+cmdline.txt contoh2 grub.txt kernel-linux.txt shellscript
+ramadhan@ramadhan-X456URK:~/praxis/kemampuan-dasar-1/latihan$ clear 
