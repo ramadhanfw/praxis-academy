@@ -1,7 +1,0 @@
-public class variabel{
-    publi static void main(String[] args)
-    {
-        system.out.println("Hello world");
-    } 
-
-}
