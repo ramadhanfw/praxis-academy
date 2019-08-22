@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MySimpleGenerics",
+            "request": "launch",
+            "mainClass": "MySimpleGenerics",
+            "projectName": "01-03_22151149"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Derived",
+            "request": "launch",
+            "mainClass": "Derived",
+            "projectName": "01-03_22151149"
+        }
+    ]
+}
